@@ -1,0 +1,49 @@
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Centrado vertical */
+    margin: 0;
+}
+
+.futuristic-title {
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    text-align: center; /* Centrado */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 0 0 10px rgba(0, 204, 255, 0.7), 0 0 20px rgba(0, 204, 255, 0.5); /* Efecto de sombra */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado */
+}
+
+select, input, button {
+    margin: 10px; /* Espacio entre elementos */
+    padding: 10px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+input {
+    width: 300px; /* Ancho del campo de texto */
+    background-color: #222; /* Fondo del input */
+    color: #ffffff; /* Color del texto */
+}
+
+button {
+    background-color: #007bff; /* Color del botón */
+    color: #ffffff; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
